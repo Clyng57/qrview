@@ -1,0 +1,42 @@
+{
+  "name": "qrview",
+  "version": "1.0.0",
+  "description": "Quickly generate QR Codes. Create virtual QRView object or png data. Browser or NodeJS.",
+  "type": "module",
+  "author": "Cal Young",
+  "keywords": [
+    "arraybuffer",
+    "browser",
+    "qrcode",
+    "qr-code",
+    "uint8array",
+    "nodejs",
+    "png",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "byte-encoder": "^1.0.5",
+    "byteview": "^1.0.2",
+    "pako": "^2.0.4"
+  },
+  "babel": {
+    "targets": {
+      "node": "16"
+    }
+  },
+  "standard": {
+    "parser": "@babel/eslint-parser",
+    "ignore": [
+      "/types"
+    ]
+  }
+}
